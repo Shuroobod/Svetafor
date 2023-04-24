@@ -1,0 +1,112 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+.header{
+    border: 2px solid #c2c2c2;
+    padding: 40px;
+    border-radius: 10px;
+    background-color:grey;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px  black;
+    border: 1px solid black;
+  animation:surx 15s ease-out ;
+  animation-delay: 1s;
+    
+}
+
+.orange{
+    width: 150px;
+    height: 150px;  
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px  black;
+    border: 1px solid black;
+    animation:org 5s  ease-out ;
+    animation-delay:8s;
+    margin: 20px 0 20px 0;
+    
+}
+.green{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px  black;
+    border: 1px solid black;
+    animation:grn 15s ease-out ;
+    animation-delay:10s;
+     
+
+}
+
+@keyframes surx{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: red;  
+    }
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color:grey; 
+    }
+    80%{
+        background-color:grey; 
+    }
+    100%{
+        background-color:grey;  
+    }
+}
+
+@keyframes org{
+    0% {
+        background-color: orange;
+    }
+    20%{
+        background-color: orange;  
+    }
+    40%{
+        background-color: orange;
+    }
+    60%{
+        background-color:grey;
+    }
+    80%{
+        background-color:grey;
+    }
+    100%{
+        background-color:grey;
+    }
+}
+
+@keyframes grn {
+    0%{
+        background-color:green;
+    }
+    20%{
+        background-color:green;
+    }
+    40%{
+        background-color:green; 
+    }
+    60%{
+        background-color:grey;
+    }
+    80%{
+        background-color:grey;
+    }
+    100%{
+         background-color:grey;
+    }
+}
